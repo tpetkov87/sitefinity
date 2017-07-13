@@ -1,0 +1,1197 @@
+----------------------------------------
+Timestamp: 6/15/2017 6:58:04 AM
+
+Message: HandlingInstanceID: 807e89c4-b5be-4002-bda1-4f2bec376749
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 09:58:04
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 6:58:04 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-1
+
+Win32 ThreadId:10980
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 6:58:04 AM
+
+Message: HandlingInstanceID: b9a44da9-9c33-4d0b-a6b8-61661b610ba3
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 09:58:04
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 6:58:04 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-1
+
+Win32 ThreadId:4244
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:07:43 AM
+
+Message: HandlingInstanceID: b05d3436-bfd2-4f81-8dcf-335ea33f2d62
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:07:43
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:07:43 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-2
+
+Win32 ThreadId:9016
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:07:43 AM
+
+Message: HandlingInstanceID: f03e5645-a25f-4a65-b372-2776e5d7fd86
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:07:43
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:07:43 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-2
+
+Win32 ThreadId:9156
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:07:45 AM
+
+Message: HandlingInstanceID: 5b33cbad-259b-4a6f-afb0-fc30bc7bad8f
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:07:45
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:07:45 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-1
+
+Win32 ThreadId:10980
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:07:45 AM
+
+Message: HandlingInstanceID: 9a2c38c9-b208-46b3-a211-d12883eac9a5
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:07:45
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:07:45 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-1
+
+Win32 ThreadId:4244
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:07:47 AM
+
+Message: HandlingInstanceID: b236ae5b-830a-48b9-ac0c-fe062016074b
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:07:47
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:07:47 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-2
+
+Win32 ThreadId:9016
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:07:47 AM
+
+Message: HandlingInstanceID: eb566eaa-4caa-4470-8042-f6fda96d8149
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:07:47
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:07:47 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-2
+
+Win32 ThreadId:9156
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:08:01 AM
+
+Message: HandlingInstanceID: b9fc3106-20e3-4fa3-9b9c-f4b489e0a40e
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:08:01
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:08:01 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-1
+
+Win32 ThreadId:4244
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:08:01 AM
+
+Message: HandlingInstanceID: 9638fd2a-fd6d-4819-bf74-ee4a6c1cb179
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:08:01
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:08:01 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-1
+
+Win32 ThreadId:10980
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:09:45 AM
+
+Message: HandlingInstanceID: 864cf854-d89c-42a6-b359-99b1c7055b80
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:09:45
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:09:45 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-2
+
+Win32 ThreadId:9156
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:09:45 AM
+
+Message: HandlingInstanceID: 7f1285c2-d087-4065-858c-1df649d59511
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:09:45
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:09:45 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-2
+
+Win32 ThreadId:9016
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:12:03 AM
+
+Message: HandlingInstanceID: b855f9c8-22d0-4627-894a-5dbe6433dd46
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:12:03
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:12:03 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-1
+
+Win32 ThreadId:4244
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:12:03 AM
+
+Message: HandlingInstanceID: 00a0cf9f-2308-4be6-90d0-bed17eb216fd
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:12:03
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:12:03 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-1
+
+Win32 ThreadId:10980
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:12:03 AM
+
+Message: HandlingInstanceID: 72852c9b-e3a3-4ccc-ad97-621ffde274ea
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:12:03
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:12:03 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-2
+
+Win32 ThreadId:9156
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:12:03 AM
+
+Message: HandlingInstanceID: 53ca40bc-ca90-47c6-ae1c-ac048d929236
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:12:03
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:12:03 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-2
+
+Win32 ThreadId:9016
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:12:56 AM
+
+Message: HandlingInstanceID: a5610ecc-9130-4133-8c12-17173ed626b6
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:12:56
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:12:56 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-1
+
+Win32 ThreadId:4244
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:13:03 AM
+
+Message: HandlingInstanceID: e47206ae-f7e9-4a1d-a4ab-0b76c3f6a1fb
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:13:03
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:13:03 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-2
+
+Win32 ThreadId:9016
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:13:07 AM
+
+Message: HandlingInstanceID: 7c1d6ebb-2b33-42ae-9f49-bde9b9f095d9
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:13:07
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:13:07 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419833976279905
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (404) Not Found.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419833976279905
+
+ProcessId: 9564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-1
+
+Win32 ThreadId:4244
+
+Extended Properties: 
+----------------------------------------

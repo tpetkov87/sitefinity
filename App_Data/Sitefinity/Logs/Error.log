@@ -1,0 +1,376 @@
+----------------------------------------
+Timestamp: 7/12/2017 8:19:13 AM
+
+Message: HandlingInstanceID: 174f024c-b90c-497a-ab66-16292faf403b
+An exception of type 'Telerik.OpenAccess.Exceptions.DuplicateKeyException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+07/12/2017 11:19:13
+Type : Telerik.OpenAccess.Exceptions.DuplicateKeyException, Telerik.OpenAccess, Version=2016.2.822.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Insert of '1567185022-22742e57-3564-49f6-a6be-686b35a76f2c' failed: Telerik.OpenAccess.RT.sql.SQLException: Cannot insert duplicate key row in object 'dbo.sf_permissions' with unique index 'idx_sf_permissions'. The duplicate key value is (c2ff79fc-d43c-40a4-b0d2-d7b9cbd83d90, d8973feb-4490-442b-b66f-b534d42b476e, //, Controls).
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.sf_permissions' with unique index 'idx_sf_permissions'. The duplicate key value is (c2ff79fc-d43c-40a4-b0d2-d7b9cbd83d90, d8973feb-4490-442b-b66f-b534d42b476e, //, Controls).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+INSERT INTO [sf_permissions] ([id], [app_name], [deny], [grnt], [last_modified], [object_id], [principal_id], [set_name], [voa_version]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+(set event logging to all to see parameter values)
+Source : Telerik.Sitefinity
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : NewObjectOID@41fa6b37 class=Permission id=1 realOID=1567185022-22742e57-3564-49f6-a6be-686b35a76f2c
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: Cannot insert duplicate key row in object 'dbo.sf_permissions' with unique index 'idx_sf_permissions'. The duplicate key value is (c2ff79fc-d43c-40a4-b0d2-d7b9cbd83d90, d8973feb-4490-442b-b66f-b534d42b476e, //, Controls).
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.sf_permissions' with unique index 'idx_sf_permissions'. The duplicate key value is (c2ff79fc-d43c-40a4-b0d2-d7b9cbd83d90, d8973feb-4490-442b-b66f-b534d42b476e, //, Controls).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+Reason : DuplicateKey
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CommitTransaction(System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.TransactionManager.CommitTransaction(String transactionName)
+   at Telerik.Sitefinity.Security.Web.Services.Permissions.SavePermissionsForSpecificAction(List`1 principals, String permissionsSetName, String dataProviderName, String permissionObjectRootID, String actionName, String managerClassName, String securedObjectID, String securedObjectType, String dynamicDataProviderName)
+   at SyncInvokeSavePermissionsForSpecificAction(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 7/12/2017 8:19:13 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131442405823969813
+ThreadIdentity : 
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+Requested URL : http://merge1.sitefinity.com/Sitefinity/Services/Security/Permissions.svc/Controls/OpenAccessDataProvider/ViewControl/?permissionObjectRootID=9735c712-b572-4722-b361-4990595748d9&managerClassName=Telerik.Sitefinity.Modules.Pages.PageManager, Telerik.Sitefinity, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563&securedObjectID=c2ff79fc-d43c-40a4-b0d2-d7b9cbd83d90&securedObjectType=Telerik.Sitefinity.Pages.Model.ControlData, Telerik.Sitefinity.Model, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2016.2.822.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Cannot insert duplicate key row in object 'dbo.sf_permissions' with unique index 'idx_sf_permissions'. The duplicate key value is (c2ff79fc-d43c-40a4-b0d2-d7b9cbd83d90, d8973feb-4490-442b-b66f-b534d42b476e, //, Controls).
+The statement has been terminated.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 2601
+	ArrayBindIndex : -1
+	Number : 2601
+	ObjectId : 
+	Description : Cannot insert duplicate key row in object 'dbo.sf_permissions' with unique index 'idx_sf_permissions'. The duplicate key value is (c2ff79fc-d43c-40a4-b0d2-d7b9cbd83d90, d8973feb-4490-442b-b66f-b534d42b476e, //, Controls).
+The statement has been terminated.
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Boolean execute(System.Nullable`1[System.Int32])
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.execute(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.RelationalStorageManager.generateInserts(NewObjectOID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, CharBuf s, Object[] oidData, IntArray toUpdateIndexes, BatchControlInfo batchControl)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Cannot insert duplicate key row in object 'dbo.sf_permissions' with unique index 'idx_sf_permissions'. The duplicate key value is (c2ff79fc-d43c-40a4-b0d2-d7b9cbd83d90, d8973feb-4490-442b-b66f-b534d42b476e, //, Controls).
+The statement has been terminated.
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 0238dc3d-2ae5-4009-91ba-5abe80c3710a
+		Class : 14
+		LineNumber : 1
+		Number : 2601
+		Procedure : 
+		Server : win-95pu1dll9g9\sql1
+		State : 1
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+		   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+		   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+		   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+		   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+		   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+		   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+		   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+		   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+		   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+		   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+		   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteReader()
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.execute(Nullable`1 commandTimeout)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131442405823969813
+
+ProcessId: 8404
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7380
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/12/2017 10:10:11 AM
+
+Message: HandlingInstanceID: dc7f32dc-4ec6-444f-ace3-0dc1aeec804f
+An exception of type 'Telerik.Sitefinity.Workflow.Exceptions.WorkflowSecurityException' occurred and was caught.
+----------------------------------------------------------------------------------------------------------------
+07/12/2017 13:10:10
+Type : Telerik.Sitefinity.Workflow.Exceptions.WorkflowSecurityException, Telerik.Sitefinity, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Exception of type 'Telerik.Sitefinity.Workflow.Exceptions.WorkflowSecurityException' was thrown.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.String MessageWorkflow(System.Guid, System.Type, System.String, System.String, Boolean, System.Collections.Generic.Dictionary`2[System.String,System.String])
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowManager.MessageWorkflow(Guid itemId, Type itemType, String providerName, String operationName, Boolean isCheckedOut, Dictionary`2 contextBag)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchUnpublishPage(String[] pageIDs)
+
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 7/12/2017 10:10:10 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131442405823969813
+ThreadIdentity : admin@sitefinity.com
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+Requested URL : http://merge1.sitefinity.com/Sitefinity/Services/Pages/PagesService.svc/batchUnpublishPage/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90020
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131442405823969813
+
+ProcessId: 8404
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:616
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/12/2017 12:17:21 PM
+
+Message: HandlingInstanceID: b8e0d722-c0e7-471a-9948-e1367d3b9e12
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/12/2017 15:17:21
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 7/12/2017 12:17:21 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131443352769742348
+ThreadIdentity : admin@sitefinity.com
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+Requested URL : http://merge1.sitefinity.com/WebResource.axd?d=cisWAzJ8ZE-lZTU_K3CJsHCw8KDZj80o0GjxTDj8yWhrub47naDXMvraQZPYS1M9PboZ3yxGeNniwCdhGy7vtMibLQhmZmMCBbDp721ehNkzECspII7ltJzxm5QhZ-bmRyNiUG0tZGtC_L5DmSzZ-Q1Vb1oT5XCGfsM3-tBi9Q6reyAndSNxws9roMTERRNwpR2TiPxOHnxUib5uZFOYVg2&t=636310497480000000
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131443352769742348
+
+ProcessId: 7768
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5788
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/12/2017 12:22:54 PM
+
+Message: HandlingInstanceID: 62aa97bf-0364-4c9e-a376-d43b2d51db2e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/12/2017 15:22:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 7/12/2017 12:22:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131443352769742348
+ThreadIdentity : admin@sitefinity.com
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+Requested URL : http://merge1.sitefinity.com/WebResource.axd?d=cisWAzJ8ZE-lZTU_K3CJsHCw8KDZj80o0GjxTDj8yWhrub47naDXMvraQZPYS1M9PboZ3yxGeNniwCdhGy7vtMibLQhmZmMCBbDp721ehNkzECspII7ltJzxm5QhZ-bmRyNiUG0tZGtC_L5DmSzZ-Q1Vb1oT5XCGfsM3-tBi9Q6reyAndSNxws9roMTERRNwpR2TiPxOHnxUib5uZFOYVg2&t=636310497480000000
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131443352769742348
+
+ProcessId: 7768
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:936
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/12/2017 2:16:45 PM
+
+Message: HandlingInstanceID: 5f0f05ab-fc2e-4a3f-a206-64da8b847183
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/12/2017 17:16:45
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 7/12/2017 2:16:45 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131443401894145818
+ThreadIdentity : admin@sitefinity.com
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+Requested URL : http://merge1.sitefinity.com/WebResource.axd?d=cisWAzJ8ZE-lZTU_K3CJsHCw8KDZj80o0GjxTDj8yWhrub47naDXMvraQZPYS1M9PboZ3yxGeNniwCdhGy7vtMibLQhmZmMCBbDp721ehNkzECspII7ltJzxm5QhZ-bmRyNiUG0tZGtC_L5DmSzZ-Q1Vb1oT5XCGfsM3-tBi9Q6reyAndSNxws9roMTERRNwpR2TiPxOHnxUib5uZFOYVg2&t=636310497480000000
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131443401894145818
+
+ProcessId: 5460
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3844
+
+Extended Properties: 
+----------------------------------------

@@ -1,0 +1,189 @@
+----------------------------------------
+Timestamp: 6/15/2017 7:15:25 AM
+
+Message: HandlingInstanceID: 1474ab37-5c72-4df4-a9cd-b20d142eeac9
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:15:24
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://merge2.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:15:24 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419844976108112
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (401) Unauthorized.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419844976108112
+
+ProcessId: 4192
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://merge2.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-1
+
+Win32 ThreadId:3348
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:33 AM
+
+Message: HandlingInstanceID: ca6b30bc-dd22-4615-b1a1-6da14347dd3d
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:15:33
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://merge2.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:15:33 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419844976108112
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (401) Unauthorized.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419844976108112
+
+ProcessId: 4192
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://merge2.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-2
+
+Win32 ThreadId:11020
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:51 AM
+
+Message: HandlingInstanceID: f2e6443a-5f27-4881-a56d-e079760a93db
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/15/2017 10:15:51
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Error sending system message to URL: http://merge2.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages; HTTP method: PUT; Host: null
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-95PU1DLL9G9
+TimeStamp : 6/15/2017 7:15:51 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.0.6421.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131419844976108112
+ThreadIdentity : Anonymous
+WindowsIdentity : WIN-95PU1DLL9G9\Administrator
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote server returned an error: (401) Unauthorized.
+	Source : System
+	Help link : 
+	Status : ProtocolError
+	Response : System.Net.HttpWebResponse
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IAsyncResult BeginGetResponse(System.AsyncCallback, System.Object)
+	HResult : -2146233079
+	Stack Trace :    at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+	   at Telerik.Sitefinity.LoadBalancing.WebServiceSystemMessageSender.WithExceptionHandling(String url, String httpMethod, String hostHeader, Action action)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-95PU1DLL9G9
+
+App Domain: /LM/W3SVC/2/ROOT-1-131419844976108112
+
+ProcessId: 4192
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: http://merge2.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages-Thread-1
+
+Win32 ThreadId:3348
+
+Extended Properties: 
+----------------------------------------

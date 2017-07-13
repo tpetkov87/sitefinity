@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SitefinityWebApp</name>
+    </assembly>
+    <members>
+        <member name="T:SitefinityWebApp.AzureWebRole">
+            <summary>
+            Sitefinity's Windows Azure role entry point.
+            </summary>
+            <remarks>
+            Windows Azure looks for RoleEntryPoint inheritors only in the web role assembly and that is why this class is defined here.
+            The functionality goes into the base class - <see cref="T:Telerik.Sitefinity.Cloud.WindowsAzure.AzureWebRoleBase"/>.
+            </remarks>
+        </member>
+        <member name="F:SitefinityWebApp.Cache.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SitefinityWebApp.Cache.literalMachineKey">
+            <summary>
+            literalMachineKey control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SitefinityWebApp.Cache.buttonMain">
+            <summary>
+            buttonMain control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SitefinityWebApp.Cache.updatePanelMain">
+            <summary>
+            updatePanelMain control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SitefinityWebApp.Cache.divCallout">
+            <summary>
+            divCallout control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SitefinityWebApp.Cache.literalHeading">
+            <summary>
+            literalHeading control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SitefinityWebApp.Cache.repeaterItems">
+            <summary>
+            repeaterItems control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+    </members>
+</doc>

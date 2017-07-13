@@ -1,0 +1,322 @@
+----------------------------------------
+Timestamp: 6/15/2017 7:13:03 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:13:03 AM
+
+Message: Thread pool 'http://merge1.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:13:03 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:13:03 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:13:03 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:56 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:56 AM
+
+Message: Thread pool 'http://merge1.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:56 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:56 AM
+
+Message: Thread pool 'http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:56 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:56 AM
+
+Message: Thread pool 'http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:56 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:56 AM
+
+Message: Thread pool 'http://merge2.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:57 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:57 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:57 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:57 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:57 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:57 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:57 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:57 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:14:57 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:26 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:26 AM
+
+Message: Thread pool 'http://merge1.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:26 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:26 AM
+
+Message: Thread pool 'http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:26 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:26 AM
+
+Message: Thread pool 'http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:26 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:26 AM
+
+Message: Thread pool 'http://merge2.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:33 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:33 AM
+
+Message: Thread pool 'http://merge1.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:33 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:33 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:15:33 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:39:56 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:39:56 AM
+
+Message: Thread pool 'http://merge2.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:39:56 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:39:56 AM
+
+Message: Thread pool 'http://merge1.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:39:56 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:39:56 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:39:56 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:40:26 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:40:26 AM
+
+Message: Thread pool 'http://merge2.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:40:26 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/15/2017 7:40:26 AM
+
+Message: Thread pool 'http://merge1.sitefinity.com/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------

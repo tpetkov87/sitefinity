@@ -1,0 +1,67 @@
+----------------------------------------
+Timestamp: 7/12/2017 2:09:46 PM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/12/2017 2:09:46 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/12/2017 2:09:46 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/12/2017 2:09:46 PM
+
+Message: Modifying a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/12/2017 2:09:50 PM
+
+Message: -- Column was read from database as: [voa_class] int null
+-- modify column for field <internal-class-id>
+UPDATE [sf_form_entry]
+   SET [voa_class] = 0 -- Add your own default value here, for when [voa_class] is null.
+ WHERE [voa_class] IS NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/12/2017 2:09:50 PM
+
+Message: ALTER TABLE [sf_form_entry] ALTER COLUMN [voa_class] int NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/12/2017 2:09:50 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.sf_poll
+CREATE TABLE [sf_poll] (
+    [id] uniqueidentifier NOT NULL,
+    [text_field_controller] NVARCHAR(255) NULL, -- sf_poll.TextFieldController
+    [dropdown_list_field_controller] NVARCHAR(255) NULL, -- sf_poll.DropdownListFieldController
+    [checkboxes_field_controller] NVARCHAR(MAX) NULL, -- sf_poll.CheckboxesFieldController
+    CONSTRAINT [pk_sf_poll] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/12/2017 2:09:50 PM
+
+Message: ALTER TABLE [sf_poll] ADD CONSTRAINT [ref_sf_poll_sf_form_entry] FOREIGN KEY ([id]) REFERENCES [sf_form_entry]([id]) ON DELETE CASCADE
+
+
+----------------------------------------

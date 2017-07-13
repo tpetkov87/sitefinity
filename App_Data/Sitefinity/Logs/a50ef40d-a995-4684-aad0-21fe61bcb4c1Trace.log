@@ -1,0 +1,98 @@
+----------------------------------------
+Timestamp: 6/8/2017 12:17:03 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/8/2017 12:17:03 PM
+
+Message: Thread pool 'http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/8/2017 12:17:03 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/8/2017 12:17:03 PM
+
+Message: Thread pool 'http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/8/2017 12:17:03 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/8/2017 12:17:03 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/8/2017 12:17:03 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/8/2017 12:17:03 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/8/2017 12:17:03 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/8/2017 12:17:03 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/8/2017 12:17:33 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/8/2017 12:17:33 PM
+
+Message: Thread pool 'http://WIN-95PU1DLL9G9/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/8/2017 12:17:33 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/8/2017 12:17:33 PM
+
+Message: Thread pool 'http://WIN-A32Q8I8A6BR/Sitefinity/Services/LoadBalancing/SystemWebService.svc/HandleMessages': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
